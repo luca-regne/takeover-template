@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PoC Takeover - REGNE</title>
+	</head>
+	<body>
+		<h1>regne takeover</h1>
+		<p>Hi, it's my Subdomain Takeover PoC<p>
+		<h2>What's impact?</h2>
+		<ul>
+			<li><button onclick="alert(document.domain+' now is mine! \n So I can put any code that I want... \n Including JavaScript :\)')">XSS - stored</button></li>
+			<li>Steal cookies without from root domain, view this <a href="scripts/steal-cookies.js">code</a></li> 
+			<li>Bypass CSRF, CSP and CORS protecions</li>
+			<li>Clickjacking</li>
+			<li>Spoof pages and do social engineer</li>
+		</ul>
+		<p>By <a href="https://regne.me">regne</a></p>
+	</body>
+</html>
